@@ -9,6 +9,7 @@ Original file is located at
     https://colab.research.google.com/drive/1lPtVQX-EHwsQYOJgINiPB4Mt7-5ts0xk
 """
 #install this before running the code
+#instalar antes de ejecutar el codigo
 pip install -U langchain langchain-community langchain-core langchain-chroma langchain-huggingface pypdf python-dotenv sentence-transformers llama-cpp-python deep-translator jira
 
 from google.colab import drive
