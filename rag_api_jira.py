@@ -135,7 +135,7 @@ def consultar_base_de_conocimiento(query):
         stop=["<|eot_id|>", "Question:", "Pregunta original:", "Ingresa tu pregunta (o 'salir' para terminar):"]
     )
 
-    # El prompt ahora sugiere usar saltos de línea para mejorar la legibilidad
+    # prompt mejorado para mas estabilidad de respuesta
     template = """Use the following pieces of context to answer the user's question.
 If you don't know the answer, just say that you don't know, don't try to make up an answer.
 Answer only the user's question directly. Use line breaks to make the answer easier to read.
